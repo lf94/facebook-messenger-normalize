@@ -1,3 +1,7 @@
+[role="main"] > div > div > div > div > div > div > div:nth-of-type(2) > div > div > div > div {
+  background-image: none !important;
+}
+
 [data-testid="outgoing_group"] > [role="row"]::before {
   content: ' ';
   width: 28px;
@@ -33,3 +37,45 @@
 [data-testid="outgoing_group"] .h9e7qa53 {
   order: 0;
 }
+
+
+[data-testid="outgoing_message"] > div {
+  color: black !important;
+  background-color: var(--wash) !important;
+}
+
+/* top right soft */
+[data-testid="outgoing_message"] .gt092ec4:after {
+  border-top-left-radius: 56px;
+}
+
+/* top left soft */
+[data-testid="outgoing_message"] .cur584us:after {
+  border-top-right-radius: 56px;
+}
+
+/* bottom left soft */
+[data-testid="outgoing_message"] .lm2lsiji:after {
+  border-bottom-right-radius: 56px;
+}
+
+/* top right soft */
+[data-testid="outgoing_message"] .geli4699:after {
+  border-top-left-radius: 56px;
+}
+
+/* bottom right sharp */
+[data-testid="outgoing_message"] .af2nlw56:after {
+  border-bottom-left-radius: 42px;
+}
+
+/* bottom right soft */
+[data-testid="outgoing_message"] .t02hhl22:after {
+  border-bottom-left-radius: 56px;
+}
+
+/* top right sharp */
+[data-testid="outgoing_message"] .qyep8gqv:after {
+  border-top-left-radius: 42px;
+}
+

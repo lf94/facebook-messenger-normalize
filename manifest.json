@@ -11,7 +11,8 @@
   "content_scripts": [{
     "matches": ["https://www.messenger.com/*"],
     "css": ["overrides.css"],
-    "js": ["contentScript.js"]
+    "js": ["contentScript.js"],
+    "run_at": "document_start"
   }],
   "homepage_url": "https://github.com/lf94/facebook-messenger-normalize",
   "permissions": ["tabs"],
