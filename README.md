@@ -15,4 +15,6 @@ you can!
 
 ## Preview
 
-![./preview.png]()
+Here's an example of what you'll see:
+
+!(./preview.png)[]
