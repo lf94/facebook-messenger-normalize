@@ -1,0 +1,35 @@
+[data-testid="outgoing_group"] > [role="row"]::before {
+  content: ' ';
+  width: 28px;
+  height: 28px;
+  margin: 0 8px;
+  display: inline-block;
+  float: left;
+}
+  
+[data-testid="outgoing_group"] .ljqsnud1 {
+  color: black !important;
+  background-color: var(--wash) !important;
+}
+
+[data-testid="outgoing_group"] .ihh4hy1g {
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 4px !important;
+}
+
+[data-testid="outgoing_group"] .kdgqqoy6 {
+  border-top-right-radius: 18px;
+  border-top-left-radius: 4px !important;
+}
+
+[data-testid="outgoing_group"] .jn8vp64t {
+  order: 2;
+}
+
+[data-testid="outgoing_group"] .ewlkfwdl {
+  order: 1;
+}
+
+[data-testid="outgoing_group"] .h9e7qa53 {
+  order: 0;
+}

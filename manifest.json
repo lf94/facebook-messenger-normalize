@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook Messenger: Normalize",
+  "version": "1.0.0",
+
+  "description": "Makes the Facebook Messenger experience the same for everyone.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "author": "Lee",
+  "content_scripts": [{
+    "matches": ["https://www.messenger.com/*"],
+    "css": ["overrides.css"],
+    "js": ["contentScript.js"]
+  }],
+  "homepage_url": "https://github.com/lf94/facebook-messenger-normalize",
+  "permissions": ["tabs"],
+  "short_name": "FBMN"
+}
