@@ -17,4 +17,4 @@ you can!
 
 Here's an example of what you'll see:
 
-!(./preview.png)[]
+![](./preview.png)
